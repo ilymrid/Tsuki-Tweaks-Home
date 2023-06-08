@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: transparent;
+  padding: 20px 10px;
+  color: #9933ff; /* Purple font color */
+  text-align: center; /* Center align navbar text */
+}
+
+.navbar a {
+  color: #9933ff; /* Purple font color */
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.hero-image {
+  background-image: linear-gradient(
+    to bottom,
+    purple,
+    indigo
+  ); /* Sky gradient background */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.hero-text {
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 70px;
+}
+
+.navbar a:hover {
+  color: #ff3399; /* New color on hover (e.g., pink) */
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: #f2f2f2;
+  width: 300px;
+  height: 400px;
+  margin: 0 10px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1),
+    -10px -10px 20px rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.card img {
+  border-radius: 15px;
+  width: 300px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2),
+    -12px -12px 20px rgba(255, 255, 255, 0.7);
+}
+
+.card a {
+  display: inline-block;
+  background-image: linear-gradient(to right, indigo, purple);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.card a:hover {
+  background-image: linear-gradient(to right, purple, indigo);
+}
+
+.card p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.about-section {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-link {
+  color: #333;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-link:hover {
+  color: #666;
+}
